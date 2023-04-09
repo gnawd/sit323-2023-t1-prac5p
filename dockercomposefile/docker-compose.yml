@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: nginx
+    ports:
+      - 8080:80
+    volumes:
+      - ./src:users/Valorant only PC/Documents/5.1P/src
+  database:
+    image: redis
